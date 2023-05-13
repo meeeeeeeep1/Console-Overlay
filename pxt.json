@@ -1,6 +1,6 @@
 {
     "name": "Console Overlay",
-    "description": "",
+    "description": "Displays a console directly on the screen",
     "dependencies": {
         "device": "*"
     },
@@ -14,6 +14,7 @@
     "testFiles": [
         "test.ts"
     ],
+    "public": true,
     "targetVersions": {
         "target": "1.12.30",
         "targetId": "arcade"
@@ -21,5 +22,7 @@
     "supportedTargets": [
         "arcade"
     ],
-    "preferredEditor": "tsprj"
+    "preferredEditor": "tsprj",
+    "weight": 9.5,
+    "icon": "https://assets.scratch.mit.edu/f36cd34e7c1cbf5c8cdc7a63d6861246.jpg"
 }
