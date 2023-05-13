@@ -1,5 +1,6 @@
 {
     "name": "Console Overlay",
+    "version": "0.1.0",
     "description": "Displays a console directly on the screen",
     "dependencies": {
         "device": "*"
