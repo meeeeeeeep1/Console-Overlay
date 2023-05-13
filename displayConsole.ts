@@ -31,7 +31,7 @@ namespace console.consoleOverlay {
     /**
      * Returns whether the console overlay is on/off
      */
-    //% block="Is console visible?"
+    //% block="Is console overlay visible?"
     //% group="Console Overlay"
     export function isConsoleVisible(): boolean {
         return game.consoleOverlay.isVisible()
