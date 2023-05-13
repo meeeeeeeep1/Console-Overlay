@@ -19,6 +19,7 @@ namespace console.consoleOverlay {
      */
     //% block="turn console overlay $display"
     //% display.shadow="toggleOnOff"
+    //% display.defl=true
     //% group="Console Overlay"
     export function consoleDisplay(display: boolean): void {
         if (display) {
@@ -31,7 +32,7 @@ namespace console.consoleOverlay {
     /**
      * Returns whether the console overlay is on/off
      */
-    //% block="Is console overlay visible?"
+    //% block="is console overlay visible?"
     //% group="Console Overlay"
     export function isConsoleVisible(): boolean {
         return game.consoleOverlay.isVisible()
@@ -41,8 +42,9 @@ namespace console.consoleOverlay {
      * Sets the text color of the console overlay
      * @param the text color
      */
-    //% block="set console overlay color to $textColor"
-    //% textColor.shadow="colorNumberPicker"
+    //% block="set text color to $textColor"
+    //% textColor.shadow="colorindexpicker"
+    //% textColor.defl=1
     //% group="Console Overlay"
     export function setTextColor(textColor: number): void {
         game.consoleOverlay.setVisible(game.consoleOverlay.isVisible(), textColor)
